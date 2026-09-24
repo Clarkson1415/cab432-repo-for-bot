@@ -14,7 +14,7 @@ The site is a straightforward multi-page restaurant front end:
 - **`login.html`** - a simple login page
 - **`images/`** - site imagery (menu photos, banners, icons)
 
-Styling is split across several page-specific style sheets (`main-style.css`, `menu.css`, `order.css`, `login.css`, `feedback.css`, `formStyle.css`, `pages-styles.css`) plus a bundled `bootstrap.css` for layout scaffolding. Interactive behavior (form handling, menu interactions, ordering logic) lives in `script.js` and the `order-js/` folder. There's no build step or package manager involved it's static website.
+Styling is split across several page-specific style sheets (`main-style.css`, `menu.css`, `order.css`, `login.css`, `feedback.css`, `formStyle.css`, `pages-styles.css`) plus a bundled `bootstrap.css` for layout scaffolding. Interactive behavior (form handling, menu interactions, ordering logic) lives in `script.js` and the `order-js/` folder. There's no build step or package manager involved—it's a static website.
 
 ## Why this repo exists
 
@@ -28,8 +28,8 @@ There's nothing to install. Clone the repository and open `index.html` directly 
 python -m http.server 8080
 ```
 
-then visit `http://localhost:8080`.
+Then visit <http://localhost:8080>.
 
 ## Attribution
 
-The original restaurant website template and design are credited to [iamdulanga/restaurant-website](https://github.com/iamdulanga/restaurant-website). No newline at end of file
+The original restaurant website template and design are credited to [iamdulanga/restaurant-website](https://github.com/iamdulanga/restaurant-website).
