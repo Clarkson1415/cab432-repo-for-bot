@@ -1,6 +1,17 @@
-# restaurant website
+# Scooby's Cafe and Restaurant Website
 
-A small restaurant website, forked from [iamdulanga/restaurant-website](https://github.com/iamdulanga/restaurant-website).
+## Features
+
+- Online ordering
+- Signup and login
+- Feedback
+- A menu of current items
+- A homepage (index.html) with:
+  - About Us Section
+  - All Time Favourite
+  - WE DELIVER section with an online order button
+  - Opening Hours
+  - Contact information and Opening Hours
 
 ## What's here
 
@@ -15,10 +26,6 @@ The site is a straightforward multi-page restaurant front end:
 - **`images/`** - site imagery (menu photos, banners, icons)
 
 Styling is split across several page-specific style sheets (`main-style.css`, `menu.css`, `order.css`, `login.css`, `feedback.css`, `formStyle.css`, `pages-styles.css`) plus a bundled `bootstrap.css` for layout scaffolding. Interactive behavior (form handling, menu interactions, ordering logic) lives in `script.js` and the `order-js/` folder. There's no build step or package manager involved—it's a static website.
-
-## Why this repo exists
-
-As a demonstration or starting point for a restaurant website.
 
 ## Running it locally
 
