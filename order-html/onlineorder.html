@@ -21,13 +21,14 @@
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../menu.html">Menu</a></li>
-                <li><a class="active" href="../order.html">Online Ordering</a></li>
                 <li><a href="../contact.html">Feedback</a></li>
                 <li><a class="login-btn" href="../login.html">Login</a></li>
             </ul>
         </div>
     </nav>
     <!--header-->
+    <!-- <h3 class="logo">Scooby's Cafe & Restaurent | Order Foods | <a href="./onlineorder.html">Home</a></h3> -->
+    <!--<input type="checkbox" id="cart">-->
     <label for="cart" class="label-cart"><img src="../Images/shopping-cart-2-fill.svg"></label>
 
     <!--main-dashboard-->
@@ -43,15 +44,31 @@
 
         <h3 class="dashboard-title"><i>Recommended Food For You</i></h3><br>
         <div class="dashboard-menu">
-            <a href="./onlineorder1.html">Favourites</a>
-            <a href="./onlineorder2.html">Best Seller</a>
-            <a href="./onlineorder3.html">Instant</a>
-            <a href="./onlineorder4.html">Promotion</a>
-            <a class="active" href="./onlineorder5.html">Top Rated</a>
+            <a class="active" href="./onlineorder.html">Favourites</a>
             <a href="../order.html">All</a>
         </div><br>
 
         <div class="dashboard-content">
+            <div class="dashboard-card">
+                <img class="card-image" src="../Images/3.jpg">
+                <div class="card-details">
+                    <h4>Special Rice'n Curry<span>Rs:850.00</span></h4>
+                    <p>Delecious Rice & Curry with soy souce, vegitarian and meet, shredded cheese.</p>
+                    <p class="card-time"><img src="../Images/time-fill.svg"></span>&nbsp15-30 mins<button
+                            class="addtocart">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="dashboard-card">
+                <img class="card-image" src="../Images/4.jpg">
+                <div class="card-details">
+                    <h4>Special Rice<span>Rs:380.00</span></h4>
+                    <p>Very delicious rice with vegitables & chicken or beef and other souce.</p>
+                    <p class="card-time"><img src="../Images/time-fill.svg"></span>&nbsp15-30 mins<button
+                            class="addtocart">Add to Cart</button></p>
+                </div>
+            </div>
+
             <div class="dashboard-card">
                 <img class="card-image" src="../Images/5.jpg">
                 <div class="card-details">
@@ -63,20 +80,10 @@
             </div>
 
             <div class="dashboard-card">
-                <img class="card-image" src="../Images/8.jpg">
+                <img class="card-image" src="../Images/6.jpg">
                 <div class="card-details">
-                    <h4>Hott Pitzza<span>Rs:800.00</span></h4>
-                    <p>Very delicious pizza specially made with red pepper.</p>
-                    <p class="card-time"><img src="../Images/time-fill.svg">&nbsp15-30 mins<button class="addtocart">Add
-                            to Cart</button></p>
-                </div>
-            </div>
-
-            <div class="dashboard-card">
-                <img class="card-image" src="../Images/2.jpg">
-                <div class="card-details">
-                    <h4>Prawn Pizza<span>Rs:950.00</span></h4>
-                    <p>Fried with fine coconut oil & bathed with chilly souce & fine flour powder.</p>
+                    <h4>Cheese Kottu<span>RS:700.00</span></h4>
+                    <p>Made by a special receipi with shredded fine cheese.</p>
                     <p class="card-time"><img src="../Images/time-fill.svg">&nbsp15-30 mins<button class="addtocart">Add
                             to Cart</button></p>
                 </div>
@@ -129,37 +136,47 @@
             <hr class="divider">
             <p>Total<span>&nbspRs:5900.00</span></p>
         </div>
-        <a href="./order-html/payment-gateway.html"><button class="checkout" type="submit">
-                checkout
-            </button></a>
-        <script src="../order-js/onlineorder.js"></script>
-        <footer>
-            <div class="col-1-flex">
-                <div class="col-1">
-                    <h1>Contact us</h1>
-                    <p>No 41, Ehelepola Kumarihami Mw, Bogambara, Kandy, Sri lanka</p>
-                    <p><a href="" class="direction">GET DIRECTION</a></p>
-                    <p><a href="tel:+94754462343" class="tel">075 446 2343</a></p>
-                    <p></p>
-                </div>
+        <button class="checkout" type="submit" value="clickme" onclick="openpopup()">
+            Checkout
+        </button>
+    </div>
+    <!---------------------popup------------------------->
 
-                <div class="col-1">
-                    <h1>Opening Hours</h1>
-                    <p>Everyday</p>
-                    <p>10:00 am - 09:00 pm</p>
-                </div>
+    <div class="popup" id="popup">
+        <img src="../Images/15.png">
+        <h2>Thank You!</h2>
+        <p>Your Order Has Been Placed. Thanks!</p>
+        <button type="button" onclick="closepopup()">OK</button>
+    </div>
+    <!---------------------popup------------------------->
+    <script src="../order-js/onlineorder.js"></script>
+    <footer>
+        <div class="col-1-flex">
+            <div class="col-1">
+                <h1>Contact us</h1>
+                <p>No 41, Ehelepola Kumarihami Mw, Bogambara, Kandy, Sri lanka</p>
+                <p><a href="" class="direction">GET DIRECTION</a></p>
+                <p><a href="tel:+94754462343" class="tel">075 446 2343</a></p>
+                <p></p>
             </div>
 
-            <div class="media">
-                <ul>
-                    <li><a href="mailto:scooby@gmail.com"><img src="images/socialmedia/envelope.png" alt=""></a></li>
-                    <li><a target="_blank" href="https://web.facebook.com/Scoobyscafekandy"><img
-                                src="images/socialmedia/fb@3x.png" alt=""></a></li>
-                    <li><a target="_blank" href="https://www.instagram.com/scoobyscafe_kandy/"><img
-                                src="images/socialmedia/inst@3x.png" alt=""></a></li>
-                </ul>
+            <div class="col-1">
+                <h1>Opening Hours</h1>
+                <p>Everyday</p>
+                <p>10:00 am - 09:00 pm</p>
             </div>
-        </footer>
+        </div>
+
+        <div class="media">
+            <ul>
+                <li><a href="mailto:scooby@gmail.com"><img src="images/socialmedia/envelope.png" alt=""></a></li>
+                <li><a target="_blank" href="https://web.facebook.com/Scoobyscafekandy"><img
+                            src="images/socialmedia/fb@3x.png" alt=""></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/scoobyscafe_kandy/"><img
+                            src="images/socialmedia/inst@3x.png" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
