@@ -11,6 +11,11 @@
   - Opening Hours
   - Contact information and Opening Hours
 
+## Supports Payment Options
+Mastercard
+Visa
+Afterpay
+
 ## What's here
 The site is a straightforward multi-page restaurant front end:
 
