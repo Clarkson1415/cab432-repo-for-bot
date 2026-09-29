@@ -7,9 +7,8 @@
 - A homepage (index.html) with:
   - About Us Section
   - All Time Favourite
-  - WE DELIVER section with an online order button
-  - Opening Hours
-  - Contact information and Opening Hours
+  - Opening Hours: From 10am to 9pm
+  - Contact information
 
 ## Supports Payment Options
 Mastercard
